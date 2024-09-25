@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <button id="back_btn" class="back-btn">Back</button>
+
+    <!-- Form Container for Adding Student -->
+    <div class="form-container">
+        <h2>Add Student</h2>
+        <form id="studentForm">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+            <div class="form-group">
+                <label for="text">StudentID</label>
+                <input type="text" id="studentId" name="StudentID" placeholder="Enter StudentID" required>
+            </div>
+            <div class="form-group">
+                <label for="cnic">CNIC</label>
+                <input type="text" id="cnic" name="cnic" placeholder="Enter CNIC" required>
+            </div>
+            <button type="button" id="add_btn" class="submit-btn">Add Student</button>
+        </form>
+    </div>
+
+    <div id="user_list" class="user_info_card">
+
+
+    </div>
+
+
+    <!-- Link to the JavaScript File -->
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS here -->
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>STUDENT LOGIN</h2>
+        <form id="loginForm">
+            <div class="form-item">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" required>
+            </div>
+            <div class="form-item">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" required>
+            </div>
+            <div class="form-item">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" required>
+            </div>
+            <div class="form-item">
+                <label for="cnic">CNIC:</label>
+                <input type="text" id="cnic" required>
+            </div>
+            <button type="submit" id="login_btn">Login</button>
+            <a href="../index.html">Go back</a>
+        </form>
+        <div id="loginError" class="error-message"></div>
+    </div>
+
+    <script type="module" src="app.js"></script> <!-- Link to the login JavaScript -->
+</body>
+
+</html>
